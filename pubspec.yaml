@@ -1,0 +1,37 @@
+name: wallet_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  fluttertoast: ^8.1.2
+  flutter_lints: ^2.0.0
+  swipeable_button_view: ^0.0.2
+  flutter_expandable_fab: ^1.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: sono-bold
+      fonts:
+        - asset: assets/fonts/sono-bold.ttf
+    - family: sono-medium
+      fonts:
+        - asset: assets/fonts/sono-medium.ttf
+    - family: sono-regular
+      fonts:
+        - asset: assets/fonts/sono-regular.ttf
